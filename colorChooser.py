@@ -30,8 +30,6 @@ if color.isValid():                        #### only if a color was choosen
     msgBox.setInformativeText("der HEX-Code {0}, wurde bereits in Ihre Zwischenablage kopiert!".format(color.name()))
     msgBox.addButton("Ok", QMessageBox.ActionRole)
     msgBox.exec_()
-#print()
-#print("".format())
 
 exit()
 app.exec_()
